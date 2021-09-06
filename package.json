@@ -1,5 +1,5 @@
 {
-  "name": "gridlex",
+  "name": "@io.jesi/gridlex",
   "description": "Just a Flexbox Grid System",
   "keywords": [
     "css",
@@ -10,13 +10,13 @@
     "mediaqueries",
     "flexbox"
   ],
-  "url": "https://github.com/devlint/gridlex",
+  "url": "https://github.com/jesims/gridlex",
   "homepage": "http://gridlex.devlint.fr",
   "author": "https://github.com/devlint",
   "version": "2.7.2",
   "repository": {
     "type": "git",
-    "url": "git@github.com:devlint/gridlex.git"
+    "url": "git@github.com:jesims/gridlex.git"
   },
   "license": "MIT",
   "main": "dist/gridlex.min.css",
