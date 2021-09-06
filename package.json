@@ -24,12 +24,12 @@
   "style": "docs/gridlex.css",
   "scripts": {
     "version": "npm run dist && git add -A .",
-    "dist": "node-sass src/gridlex.scss --sourceMap dist/ -o dist/ && postcss dist/gridlex.css > dist/gridlex.min.css && npm run docs",
+    "dist": "sass --source-map src/gridlex.scss dist/gridlex.css && postcss dist/gridlex.css > dist/gridlex.min.css && npm run docs",
     "docs": "cp -R dist/*.* docs"
   },
   "devDependencies": {
     "cssnano": "^5.0.8",
-    "node-sass": "^6.0.1",
-    "postcss-cli": "^8.3.1"
+    "postcss-cli": "^8.3.1",
+    "sass": "^1.39.0"
   }
 }
