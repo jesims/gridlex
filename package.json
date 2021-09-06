@@ -28,7 +28,7 @@
     "docs": "cp -R dist/*.* docs"
   },
   "devDependencies": {
-    "cssnano": "^3.10.0",
+    "cssnano": "^5.0.8",
     "node-sass": "^6.0.1",
     "postcss-cli": "^8.3.1"
   }
